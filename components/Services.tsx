@@ -28,7 +28,7 @@ const Services = () => {
             key={idx}
             icon={service.image}
             heading={service.title}
-            desc={service.text}
+            desc1={service.text}
           />
         ))}
       </div>
