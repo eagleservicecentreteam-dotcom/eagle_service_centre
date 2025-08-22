@@ -3,9 +3,6 @@ import Navbar from "@/components/Navbar";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-// Vercel Analytics Enabled
-import { Analytics } from "@vercel/analytics/next"
-
 
 const geist = Geist({
   variable: "--font-geist",
@@ -74,7 +71,6 @@ export default function RootLayout({
         {children}
 
         <Footer />
-        <Analytics />
       </body>
     </html>
   );
