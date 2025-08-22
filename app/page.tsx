@@ -11,9 +11,6 @@ import ReviewSection from "@/components/ReviewSection";
 import ServiceSection from "@/components/ServiceSection";
 import Testimonial from "@/components/Testimonial";
 import TestimonialSection from "@/components/TestimonialSection";
-// Vercel Analytics Enabled
-import { Analytics } from "@vercel/analytics/next"
-
 
 export default function Home() {
   return (
