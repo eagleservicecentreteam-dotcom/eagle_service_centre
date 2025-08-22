@@ -23,7 +23,10 @@ const AboutSection = () => {
           Precision. Performance. Partnership. Progress.
         </h2>
         <p className="mt-[40px] md:mt-[48px] font-light text-[16px] md:text-[18px]">
-        With decades of excellence, Eagle Service Centre is a trusted name in high-frequency PVC welding machines—renowned for durability, precision, unmatched customer satisfaction, innovative solutions, global reach, and superior after-sales service.
+        Since 1977, Eagle Service Centre (ESC) has been a frontrunner in manufacturing high quality PVC welding machines. Our machines are widely used in blister & shrink film, photo albums, car & scooter seat covers, stickers, canvas shoes, velvet patches, and more.
+        <br />
+        <br />
+        Operating from a fully equipped 165 sq. yard facility, ESC has built a strong reputation in the Indian market and is steadily expanding into international markets such as Nepal and beyond. Our commitment remains constant superior quality at economical prices with reliable, maintenance free machines.
         </p>
 
         <div className="mt-[40px] md:mt-[48px] font-light text-[16px] md:text-[18px] grid grid-cols-[repeat(2,1fr)] md:grid-cols-[repeat(4,1fr)] lg:grid-cols-[repeat(2,1fr)] w-full gap-[24px]">
@@ -72,16 +75,19 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-[repeat(2,1fr)] gap-[24px]">
           <FeatureCard
             icon={"/eye.svg"}
-            heading={"Our Vision"}
-            desc={
-              "To lead with innovation, engineering excellence, and build lasting partnerships through trust and quality."
+            heading={"Founder’s Legacy"}
+            desc1={
+              `Eagle Service Centre was founded by Late Shri Bhim Sain Chopra, who began his journey in the automobile sector in the early 1970s before venturing into PVC welding machine manufacturing.`
+            }
+            desc2={
+              `His vision, dedication, and pioneering approach laid the foundation for Eagle to become a trusted name in the industry. Today, under the leadership of Mr. Sagar Chopra, the legacy continues—serving industries with reliable, world-class welding solutions and expanding into global markets.`
             }
           />
           <FeatureCard
             icon={"/mission.svg"}
-            heading={"Our Mission"}
-            desc={
-              "To deliver reliable, top-quality machines and services that help industries achieve long term efficiency and consistent performance."
+            heading={"Our Vision"}
+            desc1={
+              "At Eagle Service Centre, our vision is to uphold the founder’s philosophy of quality, trust, and progress. We are committed to delivering reliable, high-frequency PVC welding machines that empower industries with efficiency and innovation. Guided by the principles of precision, performance, and partnership, we strive to expand globally while staying rooted in the values set forth by our founder."
             }
           />
         </div>

@@ -5,11 +5,13 @@ import React, { useRef } from "react";
 const FeatureCard = ({
   icon,
   heading,
-  desc,
+  desc1,
+  desc2,
 }: {
   icon: String;
   heading: String;
-  desc: String;
+  desc1: String;
+  desc2?: String;
 }) => {
   const cardRef = useRef<HTMLDivElement>(null);
   usePopUpAnimation(cardRef);
@@ -26,7 +28,7 @@ const FeatureCard = ({
 
       <div className="flex flex-col gap-[16px] font-geist text-[#2C2C2C]">
         <p className="text-[18px] lg:text-[26px] font-semibold">{heading}</p>
-        <p className="text-[10px] lg:text-[18px] font-light">{desc}</p>
+        <p className="text-[10px] lg:text-[18px] font-light">{desc1} <br /><br /> {desc2}</p>
       </div>
     </div>
   );
