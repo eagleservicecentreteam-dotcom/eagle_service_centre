@@ -84,7 +84,27 @@ const agents:AgentType[] = [
     {
       imageUrl: "/brand26.svg",
     },
+    {
+      imageUrl: "/brand27.svg",
+    },
+    {
+      imageUrl: "/brand28.svg",
+    },
+    {
+      imageUrl: "/brand29.svg",
+    },
+    {
+      imageUrl: "/brand30.svg",
+    },
+    {
+      imageUrl: "/brand31.svg",
+    },
+    {
+      imageUrl: "/brand32.svg",
+    },
+    {
+      imageUrl: "/brand33.svg",
+    },
   ];
-
 
   export default agents;

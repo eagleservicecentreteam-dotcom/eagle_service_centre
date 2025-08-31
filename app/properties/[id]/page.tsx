@@ -194,8 +194,9 @@ useEffect(() => {
               ))}
             </div>
           </div>
-
-          <div className="flex flex-col gap-6 text-[#2c2c2c]">
+          
+          {/* Gallery*/}
+          {/* <div className="flex flex-col gap-6 text-[#2c2c2c]">
             <h2 className="text-2xl md:text-3xl font-bold tracking-tight">
               Product Gallery
             </h2>
@@ -223,7 +224,7 @@ useEffect(() => {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
 
           {/* google maps */}
           <div className="flex flex-col gap-4 text-[#2c2c2c]">

@@ -39,7 +39,7 @@ const TestimonialCard = ({
           {[...Array(ratings)].map((_, idx) => (
             <img
               key={idx}
-              src="/star-black.svg"
+              src="/star.svg"
               alt="star-rating"
               className="w-3 h-3 sm:w-4 sm:h-4"
             />

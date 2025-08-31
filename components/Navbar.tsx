@@ -50,7 +50,12 @@ const Navbar = () => {
             className="text-[#2C2C2C] font-semibold flex max-w-[280px] md:max-w-none flex-shrink-0 justify-start items-center gap-2"
           >
             <img src={"/logo.jpg"} alt="logo" width={56} height={56} />
-            <h1 className="text-lg md:text-[26px] ">EAGLE SERVICE CENTRE</h1>
+            <div className="flex flex-col leading-tight">
+              <h1 className="font-serif font-extrabold italic tracking-wide text-blue-700 text-lg md:text-[26px]">EAGLE SERVICE CENTRE</h1>
+              <span className="font-serif text-sm md:text-base text-gray-500 -mt-1.5">
+                Built with Quality, Grown through Trust..!
+              </span>
+            </div>
           </Link>
 
           <div className="flex-row items-center justify-center gap-8 overflow-hidden hidden force-tablet-pro lg:flex">
@@ -84,17 +89,17 @@ const Navbar = () => {
             <button
               onClick={() => setIsDrawerOpen((prev) => !prev)}
               className={`
-        hover:cursor-pointer
-          flex items-center justify-center
-          border border-white
-          rounded-full
-          aspect-square
-          p-2
-          overflow-visible 
-          lg:hidden
-          force-tablet-hamburger
+                hover:cursor-pointer
+                flex items-center justify-center
+                border border-white
+                rounded-full
+                aspect-square
+                p-2
+                overflow-visible 
+                lg:hidden
+                force-tablet-hamburger
           ${isDrawerOpen ? "bg-[#DBDBDB]" : "bg-white"}
-        `}
+              `}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

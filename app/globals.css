@@ -1,14 +1,12 @@
 @import "tailwindcss";
 
-
 /* Disable dark mode media strategy */
 @custom-variant dark media(false);
 
 
 @theme {
-  --font-geist: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-serif), ui-sans-serif, system-ui, sans-serif;
 }
-
 
 
 @layer utilities {
@@ -27,6 +25,9 @@
   }
 }
 
+.font-saira {
+  font-family: 'Saira', sans-serif;
+}
 
 html {
   scroll-behavior: smooth;

@@ -80,7 +80,7 @@ const AboutSection = () => {
               `Eagle Service Centre was founded by Late Shri Bhim Sain Chopra, who began his journey in the automobile sector in the early 1970s before venturing into PVC welding machine manufacturing.`
             }
             desc2={
-              `His vision, dedication, and pioneering approach laid the foundation for Eagle to become a trusted name in the industry. Today, under the leadership of Mr. Sagar Chopra, the legacy continues—serving industries with reliable, world-class welding solutions and expanding into global markets.`
+              `His vision, dedication, and pioneering approach laid the foundation for Eagle to become a trusted name in the industry. Today, under the leadership of Mr. Sagar Chopra & Mr. Manoj Chopra, the legacy continues—serving industries with reliable, world-class welding solutions and expanding into global markets.`
             }
           />
           <FeatureCard

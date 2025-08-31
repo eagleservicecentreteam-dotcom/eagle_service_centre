@@ -14,9 +14,12 @@ const Footer = () => {
               alt="footer-logo"
               className="h-[56px] w-[56px]"
             />
-            <p className="text-white text-[22px] sm:text-[26px] font-semibold">
-              Eagle Service Centre
-            </p>
+            <div className="flex flex-col leading-tight">
+              <h1 className="font-serif font-bold text-lg md:text-[26px] text-white">EAGLE SERVICE CENTRE</h1>
+              <span className="font-serif text-sm text-white md:text-base text-white -mt-1.5">
+                Built with Quality, Grown through Trust..!
+              </span>
+            </div>
           </div>
 
           {/* Phone numbers */}
