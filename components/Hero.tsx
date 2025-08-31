@@ -156,13 +156,13 @@ const Hero = () => {
               </div>
               <div>
                 <span className="text-4xl md:text-5xl font-medium relative">
-                  1200
+                  97
                   <span className="absolute top-0 text-3xl md:text-4xl">
-                    +
+                    %
                   </span>{" "}
                 </span>
                 <br />
-                Machines Delivered
+                Client Retention Rates
               </div>
             </div>
           </div>

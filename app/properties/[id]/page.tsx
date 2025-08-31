@@ -227,20 +227,7 @@ useEffect(() => {
           </div> */}
 
           {/* google maps */}
-          <div className="flex flex-col gap-4 text-[#2c2c2c]">
-            <p className="text-[18px] md:text-[24px] lg:text-[26px] font-semibold">
-              Location
-            </p>
-            <iframe
-              src={`${propertyData?.mapLocationMark}`}
-              width="full"
-              height="450"
-              style={{ border: 0, borderRadius: "32px", height: "450px" }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
-          </div>
+          <div className="flex flex-col gap-4 text-[#2c2c2c]"> <p className="text-[18px] md:text-[24px] lg:text-[26px] font-semibold"> Location </p> <div className="w-full rounded-[32px] overflow-hidden"> <iframe src={propertyData?.mapLocationMark} title="Location Map" className="w-full h-[450px] md:h-[500px] block" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" /> </div> </div>
         </div>
 
         <div className="w-full md:flex-1 md:sticky top-[90px] h-fit border border-[#C7C7C7] rounded-[32px] text-[#2C2C2C] bg-white flex flex-col items-center gap-4 px-4 py-6 lg:py-8 lg:px-8">

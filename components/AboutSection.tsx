@@ -48,19 +48,19 @@ const AboutSection = () => {
           
           <div className="w-[140px] flex flex-col gap-1 text-[#2C2C2C] font-geist">
             <p className="text-4xl md:text-5xl  font-light relative">
-              97
-              <span className="absolute top-0 text-3xl md:text-4xl">%</span>
+              100%
+              <span className="absolute top-0 text-3xl md:text-4xl"></span>
             </p>
-            <p className="text-[14px] lg:text-[14px]">Client Retention Rate</p>
+            <p className="text-[14px] lg:text-[14px]">Customer Support Available</p>
           </div>
 
-          <div className="w-[140px] flex flex-col gap-1 text-[#2C2C2C] font-geist">
+          {/* <div className="w-[140px] flex flex-col gap-1 text-[#2C2C2C] font-geist">
             <p className="text-4xl md:text-5xl  font-light relative">
-              24/7
+              100%
               <span className="absolute top-0 text-3xl md:text-4xl"></span>
             </p>
             <p className="text-[14px] lg:text-[14px]">Customer Support</p>
-          </div>
+          </div> */}
         </div>
       </div>
 

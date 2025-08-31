@@ -51,7 +51,7 @@ const Navbar = () => {
           >
             <img src={"/logo.jpg"} alt="logo" width={56} height={56} />
             <div className="flex flex-col leading-tight">
-              <h1 className="font-serif font-extrabold italic tracking-wide text-blue-700 text-lg md:text-[26px]">EAGLE SERVICE CENTRE</h1>
+              <h1 className="font-serif font-extrabold italic text-blue-700 text-lg md:text-[26px]">EAGLE SERVICE CENTRE</h1>
               <span className="font-serif text-sm md:text-base text-gray-500 -mt-1.5">
                 Built with Quality, Grown through Trust..!
               </span>
