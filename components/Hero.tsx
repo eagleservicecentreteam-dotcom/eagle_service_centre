@@ -32,7 +32,7 @@ const Hero = () => {
 
   return (
     <div className="overflow-hidden relative">
-      <section className="relative overflow-hidden font-geist rounded-4xl h-[calc(100dvh-100px)] lg:h-[80%]">
+      <section className="relative overflow-hidden font-geist mt-2 rounded-4xl h-[calc(100dvh-100px)] lg:h-[80%]">
   <div
     ref={imageRef}
     className="absolute inset-0 w-full h-full bg-center bg-cover z-0 rounded-4xl"

@@ -25,9 +25,9 @@ const ServiceSection = () => {
         </div>
         <h2
           ref={headingRef}
-          className=" text-[22px] md:text-[32px] lg:text-[36px] font-semibold text-[#2C2C2C]"
+          className=" text-[22px] md:text-[32px] lg:text-[36px] font-semibold"
         >
-          DELIVERING PRECISION WELDING SOLUTIONS ACROSS DIVERSE SECTORS
+          DELIVERING PRECISION <span className="text-blue-600">WELDING SOLUTIONS</span> ACROSS DIVERSE SECTORS
         </h2>
         <p className="text-[16px] md:text-[18px] font-light text-[#2C2C2C]">
         From automotive to healthcare, packaging to fashion, our high-frequency PVC welding machines power a wide range of industries with precision, durability, and efficiency.

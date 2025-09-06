@@ -18,7 +18,7 @@ const data: PropertyType[] = [
   {
     id: 1,
     badgeText: "ESC Registered Model",
-    image1: "/6.1.png",
+    image1: "/1.1.svg",
     image2: "/6.2.png",
     image3: "/6.3.png",
     location: "New Delhi",
@@ -69,7 +69,7 @@ const data: PropertyType[] = [
   {
     id: 2,
     badgeText: "ESC Registered Model",
-    image1: "/5.1.png",
+    image1: "/2.1.svg",
     image2: "/5.2.png",
     image3: "/5.3.png",
     location: "New Delhi",
@@ -120,7 +120,7 @@ const data: PropertyType[] = [
   {
     id: 3,
     badgeText: "ESC Registered Model",
-    image1: "/3.1.png",
+    image1: "/3.1.svg",
     image2: "/3.2.png",
     image3: "/3.3.png",
     location: "New Delhi",
@@ -173,7 +173,7 @@ const data: PropertyType[] = [
   {
     id: 4,
     badgeText: "ESC Registered Model",
-    image1: "/4.1.png",
+    image1: "/4.1.svg",
     image2: "/4.2.png",
     image3: "/4.3.png",
     location: "New Delhi",
@@ -224,7 +224,7 @@ const data: PropertyType[] = [
   {
     id: 5,
     badgeText: "ESC Registered Model",
-    image1: "/2.1.png",
+    image1: "/5.1.svg",
     image2: "/2.2.png",
     image3: "/2.3.png",
     location: "New Delhi",

@@ -64,8 +64,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="z-100 font-light text-[16px] sm:text-[18px] text-[#c7c7c7] text-left hover:underline hover:text-[#696764]"
             >
-              53B/7, Rama Rd, near Moti Nagar, opposite 555 soap factory, Block
-              B, Industrial Area, New Delhi, Delhi, 110015
+              53B/7 ,Rama Road Industrial Area, Near Moti Nagar, Opp. 555 Soap Factory, New Delhi-110015
             </a>
             <div className="flex gap-4 md:gap-6 lg:mt-5">
               <div className="flex w-10 h-10 sm:w-12 sm:h-12 p-[10px] sm:p-[14px] bg-[#2c2c2c] rounded-full hover:bg-[#888888]">
