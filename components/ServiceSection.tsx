@@ -24,7 +24,6 @@ const ServiceSection = () => {
           <Badge text={"Industries We Serve"} />
         </div>
         <h2
-          ref={headingRef}
           className=" text-[22px] md:text-[32px] lg:text-[36px] font-semibold"
         >
           DELIVERING PRECISION <span className="text-blue-600">WELDING SOLUTIONS</span> ACROSS DIVERSE SECTORS

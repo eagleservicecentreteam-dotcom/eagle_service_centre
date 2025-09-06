@@ -4,11 +4,9 @@ import AmenitiesBadge from "@/components/AmenitiesBadge";
 import { useScrollRevealAnimation } from "@/hooks/useScrollRevealAnimation";
 import PropertyData, { PropertyType } from "@/public/data/properties";
 import { SquareCheck } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import { usePopUpAnimation } from "@/hooks/usePopUpAnimation";
 import gsap from "gsap";
 
 const getEmbedUrl = (url = "") => {
@@ -67,7 +65,7 @@ useEffect(() => {
       
       // products img
       const handleMouseEnter = () => {
-        gsap.to(image, { scale: 2.2, duration: 0.4, ease: "power2.out" });
+        gsap.to(image, { scale: 2.1, duration: 0.4, ease: "power2.out" });
       };
 
       const handleMouseLeave = () => {
@@ -317,7 +315,7 @@ const useImageZoom = (
 
     // gallery
     const handleMouseEnter = () => {
-      gsap.to(image, { scale: 2.5, duration: 0.4, ease: "power2.out" });
+      gsap.to(image, { scale: 2.0, duration: 0.4, ease: "power2.out" });
     };
 
     const handleMouseLeave = () => {

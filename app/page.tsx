@@ -1,15 +1,11 @@
 import AboutSection from "@/components/AboutSection";
-import Badge from "@/components/Badge";
 import ContactSection from "@/components/ContactSection";
-import FaqAccordion from "@/components/FaqAccordion";
 import FAQSection from "@/components/FAQSection";
-import FeatureCard from "@/components/FeatureCard";
 import Hero from "@/components/Hero";
 import InfiniteScroller from "@/components/InfiniteScroller";
 import ProductsSection from "@/components/ProductsSection";
 import ReviewSection from "@/components/ReviewSection";
 import ServiceSection from "@/components/ServiceSection";
-import Testimonial from "@/components/Testimonial";
 import TestimonialSection from "@/components/TestimonialSection";
 
 export default function Home() {

@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import ContactSection from "@/components/ContactSection";
 import React from "react";
 
