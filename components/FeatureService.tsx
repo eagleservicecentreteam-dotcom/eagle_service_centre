@@ -208,7 +208,7 @@ const FeatureService = () => {
             <section className="flex justify-start items-center gap-[8px] w-full">
               <img
                 src={serviceDetailsIcons[idx]}
-                alt="vacation-home-logo"
+                alt="logo"
                 className="text-black h-[48px] w-[48px]"
               />
               <p className="text-[#2C2C2C] font-semibold text-[20px]">

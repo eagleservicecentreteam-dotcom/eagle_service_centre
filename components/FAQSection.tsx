@@ -20,8 +20,8 @@ const FAQSection = () => {
 
             <Badge text={"Solutions & Support"} />
             </div>
-            <h2 ref={headingRef} className="mt-4 w-full text-left uppercase text-[#2C2C2C] font-semibold font-geist text-[20px] md:text-[32px] lg:text-[36px]">
-              Frequently asked questions
+            <h2 className="mt-4 w-full text-left uppercase text-[#2C2C2C] font-semibold font-geist text-[20px] md:text-[32px] lg:text-[36px]">
+            <span className="text-blue-600">Frequently asked questions</span>
             </h2>
           </div>
         </div>

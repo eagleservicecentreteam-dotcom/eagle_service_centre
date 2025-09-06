@@ -28,31 +28,31 @@ const Footer = () => {
           <div className="z-100 flex-1 w-full gap-2 flex flex-col">
             <Link
               href={"tel:+91-98101-45485"}
-              className="font-light text-[16px] sm:text-[18px] text-[#c7c7c7] hover:underline hover:text-[#696764]"
+              className="font-light text-[16px] sm:text-[18px] text-[#c7c7c7] hover:underline hover:text-[#2563EB]"
             >
               +91-98101-45485
             </Link>
             <Link
               href={"tel:+91-98103-96601"}
-              className="font-light text-[16px] sm:text-[18px] text-[#c7c7c7] hover:underline hover:text-[#696764]"
+              className="font-light text-[16px] sm:text-[18px] text-[#c7c7c7] hover:underline hover:text-[#2563EB]"
             >
               +91-98103-96601
             </Link>
             <Link
               href={"tel:+91-98719-20810"}
-              className="font-light text-[16px] sm:text-[18px] text-[#c7c7c7] hover:underline hover:text-[#696764]"
+              className="font-light text-[16px] sm:text-[18px] text-[#c7c7c7] hover:underline hover:text-[#2563EB]"
             >
               +91-98719-20810
             </Link>
             <Link
               href={"tel:+91-93101-45485"}
-              className="font-light text-[16px] sm:text-[18px] text-[#c7c7c7] hover:underline hover:text-[#696764]"
+              className="font-light text-[16px] sm:text-[18px] text-[#c7c7c7] hover:underline hover:text-[#2563EB]"
             >
               +91-93101-45485
             </Link>
             <Link
               href={"mailto: eagleservicecentre77@yahoo.com"}
-              className="z-100 font-light text-[16px] sm:text-[18px] text-[#c7c7c7] hover:underline hover:text-[#696764]"
+              className="z-100 font-light text-[16px] sm:text-[18px] text-[#c7c7c7] hover:underline hover:text-[#2563EB]"
             >
               eagleservicecentre77@yahoo.com
             </Link>
@@ -62,12 +62,12 @@ const Footer = () => {
               href="https://www.google.com/maps/dir//EAGLE+SERVICE+CENTRE,+53B%2F7,+Rama+Rd,+near+Moti+Nagar,+opposite+555+soap+factory,+Block+B,+Industrial+Area,+New+Delhi,+Delhi,+110015/@28.686479,77.034118,12z/data=!4m9!4m8!1m0!1m5!1m1!1s0x390d03a60b193caf:0xc6ff0860d41cae79!2m2!1d77.156688!2d28.6618039!3e0?hl=en&entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
-              className="z-100 font-light text-[16px] sm:text-[18px] text-[#c7c7c7] text-left hover:underline hover:text-[#696764]"
+              className="z-100 font-light text-[16px] sm:text-[18px] text-[#c7c7c7] text-left hover:underline hover:text-[#2563EB]"
             >
               53B/7 ,Rama Road Industrial Area, Near Moti Nagar, Opp. 555 Soap Factory, New Delhi-110015
             </a>
             <div className="flex gap-4 md:gap-6 lg:mt-5">
-              <div className="flex w-10 h-10 sm:w-12 sm:h-12 p-[10px] sm:p-[14px] bg-[#2c2c2c] rounded-full hover:bg-[#888888]">
+              <div className="flex w-10 h-10 sm:w-12 sm:h-12 p-[10px] sm:p-[14px] bg-[#2c2c2c] rounded-full hover:bg-[#2563EB]">
                 <Link
                   href={"https://www.facebook.com/share/16zYuBJ4gs/"}
                   className="font-light text-[18px] text-[#c7c7c7]"
@@ -79,7 +79,7 @@ const Footer = () => {
                   />
                 </Link>
               </div>
-              <div className="flex w-10 h-10 sm:w-12 sm:h-12 p-[10px] sm:p-[14px] bg-[#2c2c2c] rounded-full hover:bg-[#888888]">
+              <div className="flex w-10 h-10 sm:w-12 sm:h-12 p-[10px] sm:p-[14px] bg-[#2c2c2c] rounded-full hover:bg-[#2563EB]">
                 <Link
                   href={"https://www.youtube.com/@eagleservicecentre77"}
                   target="_blank"
@@ -93,7 +93,7 @@ const Footer = () => {
                   />
                 </Link>
               </div>
-              <div className="flex w-10 h-10 sm:w-12 sm:h-12 p-[10px] sm:p-[14px] bg-[#2c2c2c] rounded-full hover:bg-[#888888]">
+              <div className="flex w-10 h-10 sm:w-12 sm:h-12 p-[10px] sm:p-[14px] bg-[#2c2c2c] rounded-full hover:bg-[#2563EB]">
                 <Link
                   href={"https://wa.me/message/2XA3M6OFIC7TK1"}
                   target="_blank"

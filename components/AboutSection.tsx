@@ -19,8 +19,8 @@ const AboutSection = () => {
         <div ref={badgeRef}>
         <Badge text={"Who We Are"} />
         </div>
-        <h2 ref={headingRef} className="mt-4 w-full text-left uppercase text-[#2C2C2C] font-semibold font-geist text-[20px] md:text-[32px] lg:text-[36px] ">
-          Precision. Performance. Partnership. Progress.
+        <h2 className="mt-4 w-full text-left uppercase text-[#2C2C2C] font-semibold font-geist text-[20px] md:text-[32px] lg:text-[36px] ">
+          Precision. <span className="text-blue-600">Performance.</span> Partnership. <br /><span className="text-blue-600">Progress.</span>
         </h2>
         <p className="mt-[40px] md:mt-[48px] font-light text-[16px] md:text-[18px]">
         Since 1977, Eagle Service Centre (ESC) has been a frontrunner in manufacturing high quality PVC welding machines. Our machines are widely used in blister & shrink film, photo albums, car & scooter seat covers, stickers, canvas shoes, velvet patches, and more.
@@ -32,7 +32,7 @@ const AboutSection = () => {
         <div className="mt-[40px] md:mt-[48px] font-light text-[16px] md:text-[18px] grid grid-cols-[repeat(2,1fr)] md:grid-cols-[repeat(4,1fr)] lg:grid-cols-[repeat(2,1fr)] w-full gap-[24px]">
           <div className="w-[140px] flex flex-col gap-1 text-[#2C2C2C] font-geist">
             <p className="text-4xl md:text-5xl  font-light relative">
-              1977
+            <span className="text-blue-600">1977</span>
               <span className="absolute top-0 text-3xl md:text-4xl"></span>
             </p>
             <p className="text-[14px] lg:text-[14px]">Established Since</p>
@@ -40,15 +40,15 @@ const AboutSection = () => {
           
           <div className="w-[140px] flex flex-col gap-1 text-[#2C2C2C] font-geist">
             <p className="text-4xl md:text-5xl  font-light relative">
-              20
-              <span className="absolute top-0 text-3xl md:text-4xl">+</span>
+            <span className="text-blue-600">20</span>
+              <span className="absolute top-0 text-3xl text-blue-600 md:text-4xl">+</span>
             </p>
             <p className="text-[14px] lg:text-[14px]">Industries Served Across Sectors</p>
           </div>
           
           <div className="w-[140px] flex flex-col gap-1 text-[#2C2C2C] font-geist">
             <p className="text-4xl md:text-5xl  font-light relative">
-              100%
+            <span className="text-blue-600">100%</span>
               <span className="absolute top-0 text-3xl md:text-4xl"></span>
             </p>
             <p className="text-[14px] lg:text-[14px]">Customer Support Available</p>

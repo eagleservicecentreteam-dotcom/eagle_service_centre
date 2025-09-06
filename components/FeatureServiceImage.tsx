@@ -1,5 +1,3 @@
-// WHAT WE OFFER (CARDS IMAGES)
-
 import gsap from "gsap";
 import React, { useEffect, useRef } from "react";
 

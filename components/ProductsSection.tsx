@@ -21,10 +21,10 @@ const ProductsSection = () => {
       </div>
 
       <h2
-        ref={headingRef}
+        // ref={headingRef}
         className="w-full text-left uppercase text-[#2C2C2C] font-semibold font-geist text-[20px] md:text-[32px] lg:text-[36px] lg:w-[800px]"
       >
-        Quality products that meet global welding standards
+        Quality products that meet <span className="text-blue-600">global welding standards</span>
       </h2>
       <div
   className="

@@ -17,10 +17,10 @@ const TestimonialSection = () => {
         <Badge text={"Clients That Believe in Us"} />
       </div>
       <h2
-        ref={headingRef}
+        // ref={headingRef}
         className="text-center w-full uppercase text-[#2C2C2C] font-semibold font-geist text-[20px] md:text-[32px] lg:text-[36px] lg:w-[800px]"
       >
-        Leading Brands That Trust Our Craft
+        <span className="text-blue-600">Leading Brands</span> That Trust Our Craft
       </h2>
     </div>
   );

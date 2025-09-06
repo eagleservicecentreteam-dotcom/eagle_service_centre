@@ -19,10 +19,10 @@ const ReviewSection = () => {
               <Badge text={"What Our Clients Say"} />
             </div>
             <h2
-              ref={headingRef}
+              // ref={headingRef}
               className="mt-4 w-full text-left uppercase text-[#2C2C2C] font-semibold font-geist text-[20px] md:text-[32px] lg:text-[36px]"
             >
-              Real Experiences. Proven Results.
+              Real Experiences. <span className="text-blue-600">Proven Results.</span>
             </h2>
             <p className="mt-[40px] md:mt-[48px] font-light text-[16px] md:text-[18px]">
             Our clients define our success. Discover what top brands and industry experts say about the quality, precision, and performance of our high frequency PVC welding machines.

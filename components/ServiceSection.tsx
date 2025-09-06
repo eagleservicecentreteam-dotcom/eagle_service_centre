@@ -42,11 +42,11 @@ const ServiceSection = () => {
           <Badge text={"Why Choose Us"} className={"mx-auto"} />
         </div>
         <h2
-          ref={headingRef1}
+          // ref={headingRef1}
           className="w-full uppercase text-[#2C2C2C] font-semibold font-geist text-[20px] md:text-[32px] lg:text-[36px] text-center"
         >
-          Built with quality, <br />
-          Grown through trust..!!
+          Built with <span className="text-blue-600">quality</span>
+          Grown through <span className="text-blue-600">trust</span>..!!
         </h2>
         <Services />
       </div>
