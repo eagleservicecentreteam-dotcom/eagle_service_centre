@@ -199,7 +199,7 @@ const FeatureService = () => {
           key={i}
         >
           <FeatureServiceImage
-            url={`/feature-s0n${idx + 1}.jpg`}
+            url={`/feature-s0${idx + 1}.jpg`}
             heading={`0${idx + 1}`}
             text={serviceDetailsHeading[idx]}
           />

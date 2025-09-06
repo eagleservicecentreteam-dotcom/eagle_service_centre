@@ -31,7 +31,7 @@ const Hero = () => {
   const lines = [["HIGH", "FREQUENCY"], ["P.V.C", "WELDING"], ["MACHINE"]];
 
   return (
-    <div className="overflow-hidden relative">
+    <div className="overflow-hidden relative mt-5">
       <section className="relative overflow-hidden font-geist mt-2 rounded-4xl h-[calc(100dvh-100px)] lg:h-[80%]">
   <div
     ref={imageRef}

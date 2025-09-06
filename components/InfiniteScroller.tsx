@@ -67,7 +67,7 @@ const InfiniteScroller = () => {
   }, []);
 
   useEffect(() => {
-    if (!isMediumUp) return;
+    // if (!isMediumUp) return;
 
     const container = containerRef.current;
     const content = contentRef.current;
