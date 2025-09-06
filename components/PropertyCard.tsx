@@ -26,7 +26,7 @@ const PropertyCard = ({
 
     const handleMouseEnter = () => {
       gsap.to(image, {
-        scale: 2.5,
+        scale: 1.1,
         duration: 0.4,
         ease: "power2.out",
       });
