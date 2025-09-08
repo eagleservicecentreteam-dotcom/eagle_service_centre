@@ -15,7 +15,7 @@ const Footer = () => {
               className="h-[56px] w-[56px]"
             />
             <div className="flex flex-col leading-tight">
-              <h1 className="font-serif font-bold text-lg md:text-[26px] text-white">
+              <h1 className="font-serif font-bold text-lg md:text-[26px] text-blue-600">
                 EAGLE SERVICE CENTRE
               </h1>
               <span className="font-serif text-sm text-white md:text-base text-white -mt-1.5">

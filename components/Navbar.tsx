@@ -49,7 +49,11 @@ const Navbar = () => {
             href="/"
             className="text-[#2C2C2C] font-semibold flex max-w-[280px] md:max-w-none flex-shrink-0 justify-start items-center gap-2"
           >
-            <img src={"/logo.jpg"} alt="logo" width={64} height={64} />
+          <img
+            src={"/logo.jpg"}
+            alt="logo"
+            className="w-16 h-16 md:w-16 md:h-16 lg:w-20 lg:h-20"
+          />
             <div className="flex flex-col leading-tight">
               <h1 className="font-serif font-extrabold italic text-blue-700 text-lg md:text-[26px]">EAGLE SERVICE CENTRE</h1>
               <span className="font-serif text-sm md:text-base text-gray-500 -mt-1.5">
