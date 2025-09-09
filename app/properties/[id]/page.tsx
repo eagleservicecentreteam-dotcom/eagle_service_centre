@@ -51,17 +51,17 @@ export default function PropertyPage() {
   }, [id]);
   const galleryCardRefs = useRef<(HTMLDivElement | null)[]>([]);
   const galleryImageRefs = useRef<(HTMLImageElement | null)[]>([]);
-useEffect(() => {
-  galleryCardRefs.current.forEach((card, idx) => {
-    const image = galleryImageRefs.current[idx];
-    if (card && image) {
-      // Reuse the same zoom logic
-      const handleMouseMove = (e: MouseEvent) => {
-        const rect = card.getBoundingClientRect();
-        const x = ((e.clientX - rect.left) / rect.width) * 100;
-        const y = ((e.clientY - rect.top) / rect.height) * 100;
-        gsap.set(image, { transformOrigin: `${x}% ${y}%` });
-      };
+  useEffect(() => {
+    galleryCardRefs.current.forEach((card, idx) => {
+      const image = galleryImageRefs.current[idx];
+      if (card && image) {
+        // Reuse the same zoom logic
+        const handleMouseMove = (e: MouseEvent) => {
+          const rect = card.getBoundingClientRect();
+          const x = ((e.clientX - rect.left) / rect.width) * 100;
+          const y = ((e.clientY - rect.top) / rect.height) * 100;
+          gsap.set(image, { transformOrigin: `${x}% ${y}%` });
+        };
       
       // products img
       const handleMouseEnter = () => {
@@ -91,7 +91,7 @@ useEffect(() => {
 }, [propertyData?.galleryImages]);
   return (
     <div className="font-geist text-[#2C2C2C] pt-[16px] px-[16px] md:px-[32px] lg:px-[80px] min-h-screen flex flex-col gap-12">
-      <div className="relative gap-4 min-h-[400px] md:h-[500px] lg:h-[600px] flex flex-col md:flex-row w-full">
+      <div className="relative gap-4 min-h-[400px] mt-8 md:h-[500px] lg:h-[600px] flex flex-col md:flex-row w-full">
         <div className="absolute top-[20px] left-[20px] bg-white rounded-[32px] py-2 px-4 text-[16px] md:-text-[18px] font-light">
           {propertyData?.badgeText}
         </div>
