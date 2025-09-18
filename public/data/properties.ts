@@ -43,8 +43,7 @@ const data: PropertyType[] = [
       "COUNTRY OF ORIGIN: MADE IN INDIA",
     ],
     keyFeatures: [
-      "Advertising & Branding Products",
-      "Footwear Industry",
+      "Shoe Upper Embossing & Welding",
       "Stationery & Accessories",
       "Automobile Interiors (Light Items)",
       "Leather Goods & Wallets",
@@ -91,7 +90,7 @@ const data: PropertyType[] = [
     keyFeatures: [
       "Automobile Interiors (Heavy Duty Items)",
       "Luggage & Travel Goods",
-      "Footwear Midsoles & Outsoles",
+      "Shoe Upper Embossing & Welding",
       "Sports Goods & Equipment",
       "Industrial Belts & Components",
       "Heavy Leather Accessories",
@@ -135,7 +134,7 @@ const data: PropertyType[] = [
       "COUNTRY OF ORIGIN: MADE IN INDIA",
     ],
     keyFeatures: [
-      "Premium Footwear Manufacturing",
+      "Shoe Upper Embossing & Welding",
       "Handbags & Fashion Accessories",
       "Leather Garments & Apparel",
       "Automobile Seat Covers & Interiors",
@@ -231,7 +230,7 @@ const data: PropertyType[] = [
       "COUNTRY OF ORIGIN: MADE IN INDIA",
     ],
     keyFeatures: [
-      "Automobile & Heavy Vehicle Components",
+      "Shoe Upper Embossing & Welding",
       "Furniture & Upholstery Industry",
       "Thick Leather Goods (Belts, Saddlery, Harness)",
       "Industrial Rubber & Conveyor Belts",
@@ -256,7 +255,7 @@ const data: PropertyType[] = [
     image2: "/7.2.png",
     image3: "/7.3.png",
     location: "New Delhi",
-    title: "EH-10KW",
+    title: "EH-10KW (A)",
     youtubeLink: "https://youtube.com/shorts/nU14eXHbmTg?si=1X2M41Fi5xM5BTZZ",
     overviewContent: [ 
       "1)  Regular Cleaning & Lubrication.", 
