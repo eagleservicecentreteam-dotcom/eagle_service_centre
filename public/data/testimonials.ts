@@ -55,6 +55,13 @@ const testimonials: TestimonialType[] = [
     review:
       "Our experience with Eagle has been excellent. The machines are dependable, and the service team is always available whenever required. We are happy to have such a trusted partner.",
   },
+  {
+    image: "/profile-pic1.png",
+    name: "Mr. Tushar Aggarwal",
+    designation: "AGGS Industries",
+    review:
+      "Top-notch pre & post-sale service..! The attention to detail and prompt response exceeded my expectations.",
+  },
 ];
 
 export default testimonials;
