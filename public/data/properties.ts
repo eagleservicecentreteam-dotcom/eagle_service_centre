@@ -160,7 +160,7 @@ const data: PropertyType[] = [
     image3: "/8.3.png",
     location: "New Delhi",
     title: "EH-4KW (A)",
-    youtubeLink: "https://youtube.com/embed/yH3EKpKxgFc?si=Nkh88hjVPYVTmElZ",
+    youtubeLink: "https://youtube.com/shorts/FwHeW3Pug3I?si=T8wfqNEhkEpw84Tl",
     overviewContent: [ 
       "1)  Regular Cleaning & Lubrication.", 
       "2)  Periodic Check of all the electrical connections.",
