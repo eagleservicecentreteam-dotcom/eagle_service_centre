@@ -45,10 +45,10 @@ const Footer = () => {
               +91-98719-20810
             </Link>
             <Link
-              href={"tel:+91-93101-45485"}
+              href={"tel:+91-88601-45485"}
               className="font-light text-[16px] sm:text-[18px] text-[#c7c7c7] hover:underline hover:text-[#2563EB]"
             >
-              +91-93101-45485
+              +91-88601-45485
             </Link>
             <Link
               href={"mailto: eagleservicecentre77@yahoo.com"}
