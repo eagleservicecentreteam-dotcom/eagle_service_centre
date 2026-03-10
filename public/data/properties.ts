@@ -397,7 +397,7 @@ const data: PropertyType[] = [
     image3: "/11.3.png",
     location: "New Delhi",
     title: "EH-12KW (Double Station)",
-    youtubeLink: "https://youtube.com/shorts/nU14eXHbmTg?si=1X2M41Fi5xM5BTZZ",
+    youtubeLink: "https://www.youtube.com/@EAGLESERVICECENTRE77/shorts",
     overviewContent: [ 
       "1)  Regular Cleaning & Lubrication.", 
       "2)  Periodic Check of all the electrical connections.",
