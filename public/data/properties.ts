@@ -155,6 +155,53 @@ const data: PropertyType[] = [
   {
     id: 4,
     badgeText: "ESC Registered Model",
+    image1: "/9.1.png",
+    image2: "/9.2.png",
+    image3: "/9.3.png",
+    location: "New Delhi",
+    title: "EH-4KW",
+    youtubeLink: "https://youtube.com/shorts/FwHeW3Pug3I?si=T8wfqNEhkEpw84Tl",
+    overviewContent: [ 
+      "1)  Regular Cleaning & Lubrication.", 
+      "2)  Periodic Check of all the electrical connections.",
+      "3)  Machine Should be placed in well ventilated space & on a properly levelled ground surface.",
+      "4) Always keep machine on for 10-15mins. Before starting working on it  to ensure proper heating of bulb’s. This must be done for bulb’s safety.",
+      "5) Ensure the machine operator must be properly trained & knows everything about the safety considerations to be followed while operating the machine.",
+    ],
+    specification: [
+      "HF OUTPUT: 4KW",
+      "POWER INPUT: 440V",
+      "OUTPUT FREQUENCY: 27.12 MHz",
+      "WELDING TIMER: Up Timer- 0-10s, Preseal- 0-10s, Welding- 0-10s, Cooling- 0-10s",
+      "PHASE: Available in Both 3 PHASE & Single Phase",
+      "MACHINE DIMENSION: 1397 x 840 x 1800mm",
+      "WORKING PLATE SIZE: 445 x 610mm & Customizable",
+      "OIL - Hydraulic 68no.",
+      "Oil Tank Capacity - 50Ltr.",
+      "MACHINE WEIGHT: 430kg(approx.)",
+      "COUNTRY OF ORIGIN: MADE IN INDIA",
+    ],
+    keyFeatures: [
+      "Automobile & Heavy Vehicle Components",
+      "Furniture & Upholstery Industry",
+      "Thick Leather Goods (Belts, Saddlery, Harness)",
+      "Industrial Rubber & Conveyor Belts",
+      "Defence & Safety Equipment",
+      "Heavy Luggage & Travel Gear",
+      "Sports Equipment (Professional Grade)",
+      "Marine & Aviation Interiors",
+      "Large-Scale Packaging Solutions",
+      "Miscellaneous Heavy-Duty Utility Products"
+    ],
+    galleryImages: [
+    ],
+    mapLocationMark:
+    "https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d112029.79804016971!2d77.07428659409634!3d28.661778962026407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x390d03a60b193caf%3A0xc6ff0860d41cae79!2s53B%2F7%2C%20Rama%20Rd%2C%20near%20Moti%20Nagar%2C%20opposite%20555%20soap%20factory%2C%20Block%20B%2C%20Industrial%20Area%2C%20New%20Delhi%2C%20Delhi%2C%20110015!3m2!1d28.6618039!2d77.156688!5e0!3m2!1sen!2sin!4v1755177586756!5m2!1sen!2sin",
+  },
+
+  {
+    id: 5,
+    badgeText: "ESC Registered Model",
     image1: "/8.1.png",
     image2: "/8.2.png",
     image3: "/8.3.png",
@@ -199,9 +246,8 @@ const data: PropertyType[] = [
     "https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d112029.79804016971!2d77.07428659409634!3d28.661778962026407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x390d03a60b193caf%3A0xc6ff0860d41cae79!2s53B%2F7%2C%20Rama%20Rd%2C%20near%20Moti%20Nagar%2C%20opposite%20555%20soap%20factory%2C%20Block%20B%2C%20Industrial%20Area%2C%20New%20Delhi%2C%20Delhi%2C%20110015!3m2!1d28.6618039!2d77.156688!5e0!3m2!1sen!2sin!4v1755177586756!5m2!1sen!2sin",
   },
 
-
   {
-    id: 5,
+    id: 6,
     badgeText: "ESC Registered Model",
     image1: "/3.1.png",
     image2: "/3.2.png",
@@ -249,7 +295,7 @@ const data: PropertyType[] = [
 
 
   {
-    id: 6,
+    id: 7,
     badgeText: "ESC Registered Model",
     image1: "/7.1.png",
     image2: "/7.2.png",
@@ -297,7 +343,101 @@ const data: PropertyType[] = [
 
 
   {
-    id: 7,
+    id: 8,
+    badgeText: "ESC Registered Model",
+    image1: "/10.1.png",
+    image2: "/10.2.png",
+    image3: "/10.3.png",
+    location: "New Delhi",
+    title: "EH-12KW (ST)",
+    youtubeLink: "https://youtube.com/shorts/nU14eXHbmTg?si=1X2M41Fi5xM5BTZZ",
+    overviewContent: [ 
+      "1)  Regular Cleaning & Lubrication.", 
+      "2)  Periodic Check of all the electrical connections.",
+      "3)  Machine Should be placed in well ventilated space & on a properly levelled ground surface.",
+      "4) Always keep machine on for 10-15mins. Before starting working on it  to ensure proper heating of bulb’s. This must be done for bulb’s safety.",
+      "5) Ensure the machine operator must be properly trained & knows everything about the safety considerations to be followed while operating the machine.",
+    ],
+    specification: [
+      "HF OUTPUT: 12KW",
+      "POWER INPUT: 440V",
+      "OUTPUT FREQUENCY: 27.12 MHz",
+      "WELDING TIMER: Up Timer- 0-10s, Preseal- 0-10s, Welding- 0-60s, Cooling- 0-30s",
+      "PHASE: 3 PHASE",
+      // "MACHINE DIMENSION: 1220 x 610 x 1270mm",
+      "WORKING PLATE SIZE: Customizable as per requirements.",
+      "OIL: Hydraulic 68no.",
+      "OIL TANK CAPACITY: 50Lt",
+      "MACHINE WEIGHT: 750kg (approx.)",
+      "COUNTRY OF ORIGIN: MADE IN INDIA",
+    ],
+    keyFeatures: [
+      "Garment Labels & Patches",
+      "Artificial Leather Products",
+      "Photo Frames & Albums",
+      "Stationery & Office Accessories",
+      "PVC/PU Sheets & Materials",
+      "Handicrafts & Decorative Items",
+      "Custom Branding & Promotional Products",
+      "Shoes & Small Leather Goods",
+      "Wallets, Belts & Fashion Accessories",
+      "Packaging Materials & Utility Products"
+    ],
+    galleryImages: [
+    ],
+    mapLocationMark:
+    "https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d112029.79804016971!2d77.07428659409634!3d28.661778962026407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x390d03a60b193caf%3A0xc6ff0860d41cae79!2s53B%2F7%2C%20Rama%20Rd%2C%20near%20Moti%20Nagar%2C%20opposite%20555%20soap%20factory%2C%20Block%20B%2C%20Industrial%20Area%2C%20New%20Delhi%2C%20Delhi%2C%20110015!3m2!1d28.6618039!2d77.156688!5e0!3m2!1sen!2sin!4v1755177586756!5m2!1sen!2sin",
+  },
+
+  {
+    id: 9,
+    badgeText: "ESC Registered Model",
+    image1: "/11.1.png",
+    image2: "/11.2.png",
+    image3: "/11.3.png",
+    location: "New Delhi",
+    title: "EH-12KW (Double Station)",
+    youtubeLink: "https://youtube.com/shorts/nU14eXHbmTg?si=1X2M41Fi5xM5BTZZ",
+    overviewContent: [ 
+      "1)  Regular Cleaning & Lubrication.", 
+      "2)  Periodic Check of all the electrical connections.",
+      "3)  Machine Should be placed in well ventilated space & on a properly levelled ground surface.",
+      "4) Always keep machine on for 10-15mins. Before starting working on it  to ensure proper heating of bulb’s. This must be done for bulb’s safety.",
+      "5) Ensure the machine operator must be properly trained & knows everything about the safety considerations to be followed while operating the machine.",
+    ],
+    specification: [
+      "HF OUTPUT: 12KW",
+      "POWER INPUT: 440V",
+      "OUTPUT FREQUENCY: 27.12 MHz",
+      "WELDING TIMER: Up Timer- 0-10s, Preseal- 0-10s, Welding- 0-10s, Cooling- 0-10s",
+      "PHASE: 3 PHASE",
+      "MACHINE DIMENSION: 2440 x 1168 x 1930mm",
+      "WORKING PLATE SIZE: 356 x 445mm & Customizable as per requirements.",
+      "OIL: Hydraulic 68no.",
+      "OIL TANK CAPACITY: 50Lt",
+      "MACHINE WEIGHT: 600kg (approx.)",
+      "COUNTRY OF ORIGIN: MADE IN INDIA",
+    ],
+    keyFeatures: [
+      "Garment Labels & Patches",
+      "Artificial Leather Products",
+      "Photo Frames & Albums",
+      "Stationery & Office Accessories",
+      "PVC/PU Sheets & Materials",
+      "Handicrafts & Decorative Items",
+      "Custom Branding & Promotional Products",
+      "Shoes & Small Leather Goods",
+      "Wallets, Belts & Fashion Accessories",
+      "Packaging Materials & Utility Products"
+    ],
+    galleryImages: [
+    ],
+    mapLocationMark:
+    "https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d112029.79804016971!2d77.07428659409634!3d28.661778962026407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x390d03a60b193caf%3A0xc6ff0860d41cae79!2s53B%2F7%2C%20Rama%20Rd%2C%20near%20Moti%20Nagar%2C%20opposite%20555%20soap%20factory%2C%20Block%20B%2C%20Industrial%20Area%2C%20New%20Delhi%2C%20Delhi%2C%20110015!3m2!1d28.6618039!2d77.156688!5e0!3m2!1sen!2sin!4v1755177586756!5m2!1sen!2sin",
+  },
+
+  {
+    id: 10,
     badgeText: "ESC Registered Model",
     image1: "/5.1.png",
     image2: "/5.2.png",
@@ -341,9 +481,8 @@ const data: PropertyType[] = [
     "https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d112029.79804016971!2d77.07428659409634!3d28.661778962026407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x390d03a60b193caf%3A0xc6ff0860d41cae79!2s53B%2F7%2C%20Rama%20Rd%2C%20near%20Moti%20Nagar%2C%20opposite%20555%20soap%20factory%2C%20Block%20B%2C%20Industrial%20Area%2C%20New%20Delhi%2C%20Delhi%2C%20110015!3m2!1d28.6618039!2d77.156688!5e0!3m2!1sen!2sin!4v1755177586756!5m2!1sen!2sin",
   },
 
-
   {
-    id: 8,
+    id: 11,
     badgeText: "ESC Registered Model",
     image1: "/6.1.png",
     image2: "/6.2.png",
