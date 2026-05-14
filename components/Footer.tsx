@@ -138,7 +138,7 @@ const Footer = () => {
       {/* Bottom copyright */}
       <div className="flex-1 w-full gap-6 flex flex-col md:justify-end md:items-center">
         <p className="font-light text-left md:text-right text-[14px] sm:text-[16px] md:text-[18px] text-[#c7c7c7]">
-          &copy; Copyright 2025. All Rights Reserved by ESC
+          &copy; Copyright 2026. All Rights Reserved by ESC
         </p>
       </div>
     </footer>

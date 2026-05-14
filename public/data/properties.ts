@@ -350,7 +350,7 @@ const data: PropertyType[] = [
     image3: "/10.3.png",
     location: "New Delhi",
     title: "EH-12KW (ST)",
-    youtubeLink: "https://youtube.com/shorts/nU14eXHbmTg?si=1X2M41Fi5xM5BTZZ",
+    youtubeLink: "https://www.youtube.com/watch?v=M2vyW2o5_YM",
     overviewContent: [ 
       "1)  Regular Cleaning & Lubrication.", 
       "2)  Periodic Check of all the electrical connections.",
