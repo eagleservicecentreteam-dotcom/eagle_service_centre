@@ -362,7 +362,7 @@ const data: PropertyType[] = [
       "HF OUTPUT: 12KW",
       "POWER INPUT: 440V",
       "OUTPUT FREQUENCY: 27.12 MHz",
-      "WELDING TIMER: Up Timer- 0-10s, Preseal- 0-10s, Welding- 0-60s, Cooling- 0-30s",
+      "WELDING TIMER: Up Timer- 0-10s, Preseal- 0-10s, Welding- 0-30s, Cooling- 0-30s",
       "PHASE: 3 PHASE",
       // "MACHINE DIMENSION: 1220 x 610 x 1270mm",
       "WORKING PLATE SIZE: Customizable as per requirements.",
